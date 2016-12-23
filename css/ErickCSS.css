@@ -38,6 +38,7 @@ input.gsc-input {
     background-color: white;
     padding-left: 10px;
     cursor: pointer;
+    transition: 0.5s;
 }
 .PopularPosts .widget-content ul li:hover {
     background-color: #defdef;
