@@ -92,3 +92,6 @@ body {
 .header-inner .Header .titlewrapper {
 	padding-bottom: 0;
 }
+.content-inner {
+	padding: 10px 20px;
+}
