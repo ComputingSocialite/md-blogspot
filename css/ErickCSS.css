@@ -37,6 +37,10 @@ input.gsc-input {
     border-top: 1px solid #123456;
     background-color: white;
     padding-left: 10px;
+    cursor: pointer;
+}
+.PopularPosts .widget-content ul li:hover {
+    background-color: #defdef;
 }
 .PopularPosts .widget-content ul li:first-child {
     border-top: 0;
