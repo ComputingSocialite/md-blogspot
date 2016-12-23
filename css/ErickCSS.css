@@ -46,6 +46,9 @@ input.gsc-input {
 .PopularPosts .widget-content ul li:first-child {
     border-top: 0;
 }
+.popular-posts .item-title > a {
+	color: #2288bb;
+}
 .feed-links {
 	display: none;
 }
@@ -94,4 +97,33 @@ body {
 }
 .content-inner {
 	padding: 10px 20px;
+}
+.tabel-wrapper {
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+.post-outer table {
+	border-collapse: collapse;
+}
+.post-outer table th,
+.post-outer table td {
+	border: 1px solid black;
+	padding: 10px;
+	white-space: nowrap;
+}
+.post-outer table th {
+	background-color: #3b5998;
+	color:white;
+}
+.post-outer h1,
+.post-outer h2,
+.post-outer h3,
+.post-outer h4,
+.post-outer h5,
+.post-outer h6 {
+	margin-top: 20px;
+    margin-bottom: 10px;
+}
+.post-outer .post-title {
+	color: #337ab7;
 }
