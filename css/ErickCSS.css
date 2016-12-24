@@ -131,3 +131,6 @@ body .navbar {
 .Profile ul li {
 	list-style-type: none;
 }
+a:visited {
+	color: #2288bb;
+}
